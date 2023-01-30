@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+#publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiHR7YBJ4oetcFQiuYLebLz9nti1SfXvJsYwYXtRpIVy9/XZSPLESUTSGYr8reFPt0yCQM/mLSPdvVr2Ppn2NaRtazj6BBoyHNHidPXFWUhzocZ3LgCz6q4QKtIwrhTHp2BdGTZNBJPB+LgQl8KkfLZEW57ByJzPx5SwqVQ2YroW1mmGKRUQfQ4PStdNnxg8Nbw+zNyHXjuzCtOp7BXvwRccF10gBEhTUbkiB0Q4XrAZMfSDqD6lZeln81OeChZ/7Li+15WgvwSUxcSwrvAMRu7Fmqp4D+okY/rg7BAoR0X+yNS6ICx6TCkWk72uEAdaV58lb/Xpm8ggB2hI30rqV0wIDAQA
+
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-uri: http://localhost:8080/oauth/token_key
